@@ -1,0 +1,56 @@
+h1,
+p {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+body {
+  background-image: url("./Background_image/survey-form-background.jpeg");
+  /* background-color: #6db3f2; */
+  background-size: cover;
+  text-align: center;
+}
+
+#survey-form {
+  border: 2px, solid darkblue;
+  border-radius: 4px;
+  color: white;
+  background-color: dimgray;
+  display: inline-block;
+  text-align: start;
+  padding: 30px;
+}
+#submit {
+  color: white;
+  background-color: green;
+  width: 38rem;
+  height: 2.5rem;
+  font-size: 17px;
+}
+textarea {
+  width: 37.5rem;
+  height: 5rem;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+label {
+  font-size: 20px;
+}
+
+#name,
+#email,
+#number {
+  width: 37.5rem;
+  height: 2rem;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+select {
+  width: 38rem;
+  height: 2rem;
+  border-radius: 3px;
+  font-size: 17px;
+}
